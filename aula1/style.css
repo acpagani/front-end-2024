@@ -12,6 +12,12 @@
     text-align: center;
 }
 
+.youtube {
+    color:#ffffff;
+    background-color: red;
+    border-radius: 5px;
+}
+
 .botao {
     background-color: #003077;
     color: #ffffff;
