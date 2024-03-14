@@ -1,0 +1,41 @@
+* {
+    background-color: #222222;
+    color: #f2f2f2;
+}
+
+.anchor {
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    text-decoration-line: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botao {
+    background-color: #003077;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+.btn:active {
+    opacity: 50%;
+}
+
+.container-botao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
