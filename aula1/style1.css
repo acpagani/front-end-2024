@@ -1,0 +1,16 @@
+.default {
+    margin: 15px;
+    padding: 10px;
+}
+
+.btn__yt {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn__yt:hover {
+    opacity: 50%;
+    transition: step-end;
+}
