@@ -1,7 +1,11 @@
 .default {
     margin: 15px;
-    padding: 10px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    cursor: pointer;
 }
+
+/* BOTÃO YOUTUBE */
 
 .btn__yt {
     background-color: red;
@@ -11,6 +15,54 @@
 }
 
 .btn__yt:hover {
-    opacity: 50%;
-    transition: step-end;
+    opacity: 70%;
+
 }
+
+.btn__yt:active {
+    opacity: 30%;
+}
+
+/* BOTÃO GOOGLE */
+
+.btn__ggl {
+    background-color: white;
+    color: #4182fa;
+    border-radius: 3px;
+    border: 1px solid #4182fa;
+    /* border-width: 1px;
+    border-style: dashed;
+    border-color: #4182fa; */
+}
+
+.btn__ggl:hover {
+    background-color: #4182fa;
+    color: white;
+}
+
+.btn__ggl:active {
+    background-color: #4182fa;
+    color: white;
+    opacity: 70%;
+}
+
+/* BOTÃO TWITTER */
+
+.btn__twt {
+    background-color: #4182fa;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn__twt:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.507);
+}
+
+.btn__twt:active {
+    opacity: 70%;
+    box-shadow: none;
+}
+
+
