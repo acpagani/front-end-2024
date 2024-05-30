@@ -1,0 +1,41 @@
+tr.planos {
+    background-color: lightblue;
+}
+
+tr.precos {
+    background-color: gray;
+}
+
+tr.precos th {
+    text-transform: uppercase;
+}
+
+table {
+    width: 50%;
+    min-width: 500px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #ececec;
+}
+
+tbody tr:hover td{
+    background-color: lightgray;
+    cursor: pointer;
+    transition: all .3s;
+}
+
