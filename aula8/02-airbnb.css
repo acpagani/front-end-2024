@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,13 @@
 .container-head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.container-head h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
 }
 
 .container-links {
@@ -22,13 +31,15 @@
     gap: 20px;
 }
 
-.container-link {
+.link {
     display: flex;
-    gap: 10px;
+    gap: 7px;
+    align-items: center;
 }
 
-.container-link a {
+.link a {
     color: black;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 .container-body {
@@ -39,8 +50,9 @@
 }
 
 .container-body img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .container-body img:first-child {

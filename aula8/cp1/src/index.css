@@ -1,0 +1,285 @@
+
+/* HEADER | NAV */
+
+header {
+    border-bottom: 1px solid #dddddd;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 19px auto;
+}
+
+.logo {
+    width: 18%;
+}
+
+.container-search {
+    width: 47%;
+}
+
+.search {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    border: 1px solid #dddddd;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.search1 {
+    width: 33%;
+}
+
+.search2 {
+    width: 34%;
+    border-right: 1.5px solid #dddddd;
+    border-left: 1.5px solid #dddddd;
+}
+
+.search3 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.search button {
+    background-color: transparent;
+    border: none;
+}
+
+.search button span {
+    padding: 0 8px;
+}
+
+.search3 button span {
+    color: #6a6a6a;
+}
+
+.btn-search {
+    background-color: #ff385c !important;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-search img {
+    height: 12px;
+    width: 12px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 35%;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-announce {
+    padding: 12px;
+    border: none;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.btn-announce:hover {
+    background-color: #ededed;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    padding: 7px 8px;
+    padding-left: 10px;
+    
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+}
+
+.profile img:first-child {
+    height: 16px;
+    width: 16px;
+}
+
+.profile img:last-child {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* MAIN */
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* HERO */
+
+.container {
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.container-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-title h1 {
+    font-size: x-large;
+}
+
+.container-links {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.link a {
+    color: black;
+    font-size: 14px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .container-title img:hover {
+
+} */
+
+.images img:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.container img:nth-child(3) {
+    border-top-right-radius: 12px;
+}
+
+.images img:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+.btn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    max-width: 205px;
+    background-color: white;
+    border: 1px solid #222;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 87%;
+    left: 79%;
+
+}
+
+.btn-more span {
+    line-height: normal;
+}
+
+.btn-more:hover {
+    cursor: pointer;
+}
+
+/* CONTENT */
+
+.container-content {
+    display: flex;
+    padding-top: 22px;
+}
+
+.description {
+    width: 65%;
+}
+
+/* OWNER PLACE NAME */
+
+.owner-place-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owner-place-name__details {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    color: #222222;
+    gap: 5px;
+}
+
+.owner-place-name__ratings {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+
+.owner-place-name__ratings li:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.owner-place-name__ratings li:first-child img {
+    max-width: 16px;
+}
+
+.owner-place-name__ratings li a {
+    color: black;
+}
+
+/* OWNER PROFILE */
