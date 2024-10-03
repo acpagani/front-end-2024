@@ -1,0 +1,31 @@
+main {
+    height: 100vh;
+}
+
+#chat-log {
+    width: 90%;
+    background-color: #eaeaea;
+    padding: 5vh;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.message--sent {
+    text-align: right;
+    color: rgb(170, 0, 80);
+}
+
+.message--sent::before {
+    content: "Usuário";
+    font-size: 12px;
+}
+
+.message--assistant {
+    text-align: left;
+
+}
+
+.message--assistant::before {
+    content: "Assistente";
+    font-size: 12px;
+}
